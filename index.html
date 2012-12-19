@@ -4,8 +4,48 @@
 		<meta charset="utf-8">
 		<title>Princess Fury</title>
 		<script type="text/javascript" src="scripts/class.js"></script>
-		<script type="text/javascript" src="scripts/main.js"></script>
+		<!--script type="text/javascript" src="scripts/main.js"></script-->
+		<style>
+		body {
+			/*background:#A9D3F5;*/
+		}
+		
+		#container {
+			width:150px;
+			margin: 60px auto;
+			text-align:center;
+		}
+		
+		#container .complete_hint {
+			-moz-transform: rotate(-10deg) translateZ(0);
+			-webkit-transform: rotate(-10deg) translateZ(0);
+			width:100px;
+			height:30px;
+			padding: 15px;
+			background: #fffaf6;
+			border-radius: 4px;
+			color: #7e7975;
+			font-size:14px;
+			line-height:30px;
+			text-align:center;
+			font-weight:bold;
+			box-shadow:
+		        0 2px 2px rgba(0,0,0,0.2),       
+		        0 1px 5px rgba(0,0,0,0.2),       
+		        0 0 0 12px rgba(255,215,200,0.4); 
+		}
+		
+		#container .stick {
+			margin: 0px auto;
+			width:10px;
+			height:70px;
+			background:#987608;
+			-moz-transform: rotate(-10deg) translateZ(0);
+			-webkit-transform: rotate(-10deg) translateZ(0);
+		}
+		</style>
 	</head>
 	<body>
+		<div id="container"><div class='complete_hint'>没有更多了</div><div class='stick'></div></div>
 	</body>
 </html>
